@@ -1,0 +1,35 @@
+.column {
+    float: left;
+    padding: 10px;
+    height: 900px
+}
+
+.left {
+    width: 10%;
+}
+
+.column {
+    float: left;
+}
+
+.left {
+    width: 10%;
+    padding: 10px;
+}
+
+.right {
+    width: 10%;
+}
+
+.middle {
+    width: 80%;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
